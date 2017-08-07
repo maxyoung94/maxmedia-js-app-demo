@@ -23,3 +23,5 @@ I'm using Sourcemaps to help debug the live code after transpiling and bundling.
 ESLint helps catch mistakes and enforce best practices. I am using the recommended settings for simplicity. 
 I use ESLint Watch to add watching capabilites to my linting process.
 Added a linting script in npm scripts.
+
+Supports unit testing using Mocha and Chai. Want to move over to Jest eventually.
