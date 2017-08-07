@@ -17,4 +17,9 @@ It is also using localtunnel to showxase the work in progress easily without usi
 
 Supports Babel transpiling so ES6 is used where possible. Using babel-node in the npm scripts.
 
-Uses Webpack to bundle dependencies. 
+Uses Webpack to bundle dependencies. Bundles JS and CSS + SASS etc. 
+I'm using Sourcemaps to help debug the live code after transpiling and bundling.
+
+ESLint helps catch mistakes and enforce best practices. I am using the recommended settings for simplicity. 
+I use ESLint Watch to add watching capabilites to my linting process.
+Added a linting script in npm scripts.

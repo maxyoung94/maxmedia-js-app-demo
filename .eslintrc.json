@@ -1,0 +1,23 @@
+{
+    // this is the root eslint file, stops it from looking in parent folders.
+    "root": true,
+    "extends": [
+        // use recommended for ease of use.
+        "eslint:recommended",
+        // enhanced linting of imports
+        "plugin:import/errors",
+        "plugin:import/warnings"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "rules": {
+        "no-console": 1
+    }
+}
