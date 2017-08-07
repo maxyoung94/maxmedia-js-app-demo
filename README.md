@@ -16,3 +16,5 @@ It is also using localtunnel to showxase the work in progress easily without usi
 "npm run share"
 
 Supports Babel transpiling so ES6 is used where possible. Using babel-node in the npm scripts.
+
+Uses Webpack to bundle dependencies. 
