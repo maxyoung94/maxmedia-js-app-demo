@@ -25,3 +25,5 @@ I use ESLint Watch to add watching capabilites to my linting process.
 Added a linting script in npm scripts.
 
 Supports unit testing using Mocha and Chai. Want to move over to Jest eventually.
+
+It utilitzes continuous integration using Travis CI and AppVeyor.
