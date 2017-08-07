@@ -14,3 +14,5 @@ It runs in parralell each time npm start is called.
 
 It is also using localtunnel to showxase the work in progress easily without using a cloud service.
 "npm run share"
+
+Supports Babel transpiling so ES6 is used where possible. Using babel-node in the npm scripts.
